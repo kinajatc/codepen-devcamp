@@ -7,59 +7,33 @@
     <title>Dev Camp - CodePen.io</title>
 </head>
 <body>
-    <div class="site-wrap">
-        <nav>
-            <div class="header">
-                <img src="codepen-black.png">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M80 6h-9v14h9 M114 6h-9 v14h9 M111 13h-6 M77 13h-6 M122 20V6l11 14V6 M22 16.7L33 24l11-7.3V9.3L33 2L22 9.3V16.7z M44 16.7L33 9.3l-11 7.4 M22 9.3l11 7.3 l11-7.3 M33 2v7.3 M33 16.7V24 M88 14h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14 M15 8c-1.3-1.3-3-2-5-2c-4 0-7 3-7 7s3 7 7 7 c2 0 3.7-0.8 5-2 M64 13c0 4-3 7-7 7h-5V6h5C61 6 64 9 64 13z"/>
-                </svg> -->
-                <br>
-                <div class="explore">
-                    <!-- explore nav
-                    <br> -->
-                    <a href="#">Pens</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Posts</a>
-                    <a href="#">Collections</a>
-                    <!-- dropdown arrow -->
-                    <a href="#">Spark</a> 
-                </div>
+    <header>
+        <img src="codepen-black.png">
+        <div class="dropdown">
+            <button class="dropbtn">+</button>
+         <div class="dropdown-content">
+              <a href="#">Create</a>
+              <a href="#">Log In</a>
+              <a href="#">Sign Up</a>
             </div>
-            <div class="btn-wrapper">
-                <a class="btn" href="#">Create</a>
-                <!-- search icon -->
-                <a class="btn" href="#">log in</a>
-                <a class="btn" href="#">sign up</a>
-            </div>
-            
-        </nav>
-
-        <div class="main">
-            <h1>CodePen is a 
-            <em>social development environment</em>
-            for front-end designers and developers.
-            <!-- waving emoji --></h1>
-            <br>
-            <h2>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</h2>
-            <a class="green-btn" href="#">Sign Up for Free</a>
-            <a class="learn-more-btn" href="#">Learn More</a>
         </div>
-        <div class="aside">
-            <p>
-                This is <h6>CodePen Projects</h6>
-            </p>
-            <img src="project.png" alt=""/>
+    </header>
+    <main>
+        <h1>CodePen is a <em>social development environment</em>for front-end designers and developers.</h1>
+        <h2>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</h2>
+        <a href="#">Sign Up For Free</a>
+        <a href="#">Learn More</a>
+    </main>
+    <section>
+        <h3>This is <em class="blue">CodePen Projects</em>!</h3>
+        <img src="project.jpg">
+        <div>
+            <a href="#">Teams</a>
+            <a href="#">Education</a>
+            <a href="#">Privacy</a>
+            <a href="#">Writing</a>
         </div>
-        
-
-        <footer>
-            <a class="ribbon" href="#">CodePen for <em>TEAMS</em></a>
-            <a class="ribbon" href="#">CodePen for <em>EDUCATION</em></a>
-            <a class="ribbon" href="#">CodePen for <em>PRIVACY</em></a>
-            <a class="ribbon" href="#">CodePen for <em>WRITING</em></a>
-        </footer>
-    </div>
+    </section>
 
 </body>
 </html>
