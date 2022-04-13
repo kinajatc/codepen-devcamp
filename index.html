@@ -9,7 +9,13 @@
 </head>
 <body>
     <header>
-        <img src="codepen-black-small.png">
+        <picture>
+            <source srcset="codepen-black-small.png" media="(max-width: 700px)">
+            <source srcset="codepen-black.png" media="(min-width: 700px)">
+            <source srcset="">
+            <img src="codepen-black-small.png">
+        </picture>
+        
         <div class="explore">
             <p class="yellow">Explore</p>
             <div class="menu">
