@@ -17,19 +17,23 @@ header img{
 } 
 
 .yellow{
-    color: darkgoldenrod;
+    color: yellow;
 }
 
 header .explore .menu{
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-around;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*flex-direction: column; 
+     justify-content: space-around; */
 }
 
 header .explore .menu a{
     /* text-decoration: none; */
     color: white;   
     border: white solid 1px;
+    text-align: center;
+    margin: 5px;
     padding: 10px;
 }
 header .explore .menu a:hover{
@@ -39,6 +43,7 @@ header .explore .menu a:hover{
 
 .gray{
     color: #303030;
+    background-color: #616161;
 } 
 svg{
     width: 20px;
@@ -147,12 +152,12 @@ section img{
     margin: 5%;
     width: 90%;
 }
-section div{
+footer div{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-section div a{
+footer div a{
     text-decoration: none;
     background-color: #303030;
     color: white;
@@ -160,12 +165,12 @@ section div a{
     margin: 10px;
     padding: 20px;
 }
-section div a:hover{
+footer div a:hover{
     background-color: white;
     color: black;
 }
-footer{
+/* footer{
     height: 200px;
-}
+} */
 
 
